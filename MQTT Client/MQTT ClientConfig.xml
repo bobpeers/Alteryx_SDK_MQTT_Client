@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <AlteryxJavaScriptPlugin>
   <EngineSettings EngineDll="Python" EngineDllEntryPoint="MQTT ClientEngine.py" SDKVersion="10.1" />
-  <GuiSettings Html="MQTT ClientGUI.html" Icon="MQTT ClientIcon.png" Help="https://github.com/bobpeers/Alteryx_SDK_MQTT Client" SDKVersion="10.1">
+  <GuiSettings Html="MQTT ClientGUI.html" Icon="MQTT ClientIcon.png" Help="https://github.com/bobpeers/Alteryx_SDK_MQTT_Client" SDKVersion="10.1">
     <OutputConnections>
       <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
     </OutputConnections>
