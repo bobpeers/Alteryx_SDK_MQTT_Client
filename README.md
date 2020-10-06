@@ -17,11 +17,10 @@ The tool will be installed in the __Connector__ category.
 This tool will install the [Paho MQTT library](https://pypi.org/project/paho-mqtt/)
 
 ## Usage
-This tool takes no inputs and receives messages for a user selected time period before pushing the topic and messages downstream.
+This tool takes no inputs and receives messages for a user selected time period before pushing the topic and messages downstream. If the machine running Alteryx does not have network access to a remote MQTT broker you can use SSH tunneling on port 1883 to connect to the broker.
 
 ## Outputs
 The output includes topic and raw message data.
-
 
 ## Usage
 This workflow demonstrates the tool in use and the output data. The workflow shown here:
