@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDll="Python" EngineDllEntryPoint="MQTT ClientEngine.py" SDKVersion="10.1" />
+  <GuiSettings Html="MQTT ClientGUI.html" Icon="MQTT ClientIcon.png" Help="https://github.com/bobpeers/Alteryx_SDK_MQTT Client" SDKVersion="10.1">
+    <OutputConnections>
+      <Connection Name="Output" AllowMultiple="False" Optional="False" Type="Connection" Label=""/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <Name>MQTT Client</Name>
+      <Description>Capture messages from an MQTT Server on a selected topic</Description>
+      <CategoryName>Connectors</CategoryName>
+      <SearchTags>mqtt, client, topic, subscribe, iot</SearchTags>
+      <ToolVersion>1.0</ToolVersion>
+      <Author>Bob Peers</Author>
+      <Company></Company>
+      <Copyright>2020</Copyright>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
